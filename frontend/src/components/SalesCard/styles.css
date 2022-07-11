@@ -1,29 +1,29 @@
 .dsmeta-card {
     background-color: var(--card-bg);
-    border-radius: 1rem;
-    padding: 3rem 1rem;
+    border-radius: 10px;
+    padding: 30px 10px;
 }
 
 .dsmeta-sales-title {
     color: var(--card-title);
-    font-size: 2.4rem;
-    margin-bottom: 2rem;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
 .dsmeta-form-control-container {
-    margin-bottom: 1.6rem;
-    max-width: 30rem;
+    margin-bottom: 16px;
+    max-width: 300px;
 }
 
 .dsmeta-form-control {
     width: 100%;
-    height: 4.6rem;
+    height: 46px;
     background-color: var(--table-bg);
-    border: 0.1rem solid var(--table-border);
-    border-radius: 0.5rem;
+    border: 1px solid var(--table-border);
+    border-radius: 5px;
     color: var(--table-text);
-    padding: 0 2rem;
-    font-size: 1.8rem;
+    padding: 0 20px;
+    font-size: 18px;
 }
 
 .dsmeta-sales-table {
@@ -33,30 +33,30 @@
 }
 
 .dsmeta-sales-table thead {
-    height: 5.5rem;
-    font-size: 1.6rem;
+    height: 55px;
+    font-size: 16px;
     color: var(--table-head);
     font-weight: 700;
 }
 
 .dsmeta-sales-table tbody {
-    font-size: 1.4rem;
+    font-size: 14px;
     font-weight: 400;
-    color: var(--table-body);
+    color: (--table-body);
     text-align: center;
 }
 
 .dsmeta-sales-table tbody tr {
-    height: 7.4rem;
-    border-top: 0.1rem solid var(--table-tr);
+    height: 74px;
+    border-top: 1px solid (--table-tr);
 }
 
 .dsmeta-sales-table tbody tr:hover>td {
-    background-color: var(--table-tr-hover);
+    background-color: (--table-tr-hover);
 }
 
 .dsmeta-sales-table tbody tr:nth-child(odd) {
-    background-color: var(--table-tr-odd);
+    background-color: (--table-tr-odd);
 }
 
 .dsmeta-red-btn-container {
@@ -64,29 +64,28 @@
     justify-content: center;
 }
 
-.show576 {
-    display: none;
-}
-
+.show576,
 .show992 {
     display: none;
 }
 
+
+/* Media Queries */
 @media (min-width: 576px) {
     .show576 {
         display: table-cell;
     }
 
     .dsmeta-card {
-        padding: 3.5rem;
+        padding: 35px;
     }
 
     .dsmeta-sales-table tbody tr {
-        height: 5.5rem;
+        height: 55px;
     }
 
     .dsmeta-sales-table tbody {
-        font-size: 1.8rem;
+        font-size: 18px;
     }
 }
 

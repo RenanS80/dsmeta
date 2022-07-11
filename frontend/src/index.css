@@ -13,6 +13,7 @@
   --table-tr: #5F6E82;
   --table-tr-hover: #384459;
   --table-tr-odd: #242C3B;
+  --button-border: #FF6B72;
 }
 
 * {
@@ -20,14 +21,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-size: 1.6rem;
 }
 
 body,
@@ -45,10 +38,10 @@ a:visited {
 
 .dsmeta-container {
   width: 100%;
-  max-width: 90rem;
+  max-width: 900px;
   margin: 0 auto;
 }
 
 #sales {
-  padding: 4rem 1rem;
+  padding: 40px 10px;
 }
