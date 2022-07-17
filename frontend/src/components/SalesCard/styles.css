@@ -42,21 +42,21 @@
 .dsmeta-sales-table tbody {
     font-size: 14px;
     font-weight: 400;
-    color: (--table-body);
+    color: var(--table-body);
     text-align: center;
 }
 
 .dsmeta-sales-table tbody tr {
     height: 74px;
-    border-top: 1px solid (--table-tr);
+    border-top: 1px solid var(--table-tr);
 }
 
 .dsmeta-sales-table tbody tr:hover>td {
-    background-color: (--table-tr-hover);
+    background-color: var(--table-tr-hover);
 }
 
 .dsmeta-sales-table tbody tr:nth-child(odd) {
-    background-color: (--table-tr-odd);
+    background-color: var(--table-tr-odd);
 }
 
 .dsmeta-red-btn-container {
@@ -64,13 +64,15 @@
     justify-content: center;
 }
 
-.show576,
+.show576 {
+    display: none;
+}
+
 .show992 {
     display: none;
 }
 
-
-/* Media Queries */
+/* Media queries */
 @media (min-width: 576px) {
     .show576 {
         display: table-cell;
