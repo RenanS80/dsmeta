@@ -26,3 +26,7 @@ header {
     font-weight: 300;
     margin-top: 8px;
 }
+
+.dsmeta-logo-container a:hover {
+    text-decoration: underline;
+}
